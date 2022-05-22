@@ -1,0 +1,243 @@
+body {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+:root {
+  --basic-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  --hero-title-color: #ffffff;
+  --button-bkg-color: #2196f3;
+  --hero-bcg-color: #2f303a;
+}
+
+.list {
+  list-style: none;
+}
+
+.decoration {
+  text-decoration: none;
+}
+
+.hidden-title {
+  display: none;
+}
+
+/* шапка */
+header {
+  color: var(--basic-color);
+  background-color: #ffffff;
+
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+}
+
+/* logo */
+.logo {
+  color: var(--basic-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  text-decoration: none;
+}
+
+.logo .second-color-logo {
+  color: var(--accent-color);
+}
+.header-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.14;
+}
+/* nav */
+.site-nav .link {
+  color: var(--basic-color);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* header contacts */
+.contacts .contacts-list {
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.contacts .contacts-list:hover,
+.contacts .contacts-list:focus {
+  color: var(--accent-color);
+}
+/* body */
+
+.section-title {
+  color: var(--basic-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+/* hero */
+.hero {
+  background-color: var(--hero-bcg-color);
+}
+
+.hero-title {
+  text-transform: uppercase;
+  color: var(--hero-title-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+/* button */
+.button {
+  font-family: Roboto,sans-serif;
+  background-color: var(--button-bkg-color);
+  color: var(--hero-title-color);
+  padding: 10px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+}
+.hero.button:hover,
+.hero.button:focus {
+}
+
+/* benefits */
+
+.benefits .title {
+  text-transform: uppercase;
+  color: var(--basic-color);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+}
+.benefits-text {
+  color: var(--text-color);
+
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* work */
+
+/* team */
+.team {
+  background-color: #f5f4fa;
+}
+.section .member {
+  color: var(--basic-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.section .specialty {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* footer */
+footer {
+  background-color: var(--hero-bcg-color);
+}
+footer > .logo {
+  color: var(--hero-title-color);
+  font-family: "Raleway";
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo .footer-logo {
+  color: var(--accent-color);
+}
+
+.address .location {
+  color: var(--hero-title-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+  font-style: normal;
+}
+.address .location:hover,
+.address .location:focus {
+  color: var(--accent-color);
+}
+.address .contacts {
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address .contacts:hover,
+.address .contacts:focus {
+  color: var(--accent-color);
+}
+
+/* Portfolio */
+
+/* button */
+.filter-list {
+  list-style-type: none;
+}
+.filter.menu {
+  font-family: Roboto,sans-serif;
+  color: var(--basic-color);
+  background: #f5f4fa;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 6px 22px;
+  cursor: pointer;
+}
+
+.filter.menu:hover,
+.filter.menu:focus {
+  color: var(--hero-title-color);
+  background-color: var(--button-bkg-color);
+}
+.projects .title {
+  color: var(--basic-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+}
+
+.projects .text {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
