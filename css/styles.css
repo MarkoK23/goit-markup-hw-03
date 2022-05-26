@@ -29,7 +29,6 @@ ul {
   margin-bottom: 0;
 }
 
-/* header */
 header {
   color: var(--basic-color);
   background-color: #ffffff;
@@ -48,13 +47,14 @@ header {
 
 .hidden-title {
   display: none;
+  /* поміняти */
 }
 .section {
   padding: 94px 0;
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   margin: 0 auto;
   /* outline: 2px solid bisque; */
   padding: 0 15px;
@@ -62,13 +62,15 @@ header {
 .section.no-padding-top {
   padding-top: 0;
 }
+/* ----------------WEB STUDIO--------------- */
 
+/* ----------------HEADER--------------- */
 .container.header {
   display: flex;
   justify-content: space-between;
 }
 
-/* logo */
+/* ----------------LOGO--------------- */
 .logo {
   margin-right: 93px;
   color: var(--basic-color);
@@ -90,7 +92,7 @@ header {
   font-size: 16px;
   line-height: 1.14;
 }
-/* nav */
+/* ----------------NAVIGATION--------------- */
 .site-nav {
   display: flex;
   padding-left: 0;
@@ -131,7 +133,7 @@ margin-right: 0;
   color: var(--accent-color);
 }
 
-/* header contacts */
+/* ----------------HEADER CONTACTS--------------- */
 .contacts {
   display: flex;
   align-items: center;
@@ -153,7 +155,9 @@ margin-right: 0;
 .contacts .contacts-list:focus {
   color: var(--accent-color);
 }
-/* body */
+/* ----------------MAIN--------------- */
+
+/* ----------------HERO SECTION--------------- */
 
 .section-title {
   color: var(--basic-color);
@@ -163,7 +167,7 @@ margin-right: 0;
   text-align: center;
   margin-bottom: 50px;
 }
-/* hero */
+
 .hero {
   background-color: var(--hero-bcg-color);
   text-align: center;
@@ -181,7 +185,7 @@ margin-right: 0;
   margin-top: 0;
   margin-bottom: 30px;
 }
-/* button */
+/* ----------------HERO BUTTON--------------- */
 .button {
   font-family: Roboto, sans-serif;
   background-color: var(--button-bkg-color);
@@ -201,7 +205,7 @@ margin-right: 0;
 .hero.button:focus {
 }
 
-/* benefits */
+/* ----------------BENEFITS--------------- */
 
 .benefits-list {
   display: flex;
@@ -225,7 +229,7 @@ margin-right: 0;
   line-height: 1.71;
 }
 
-/* occupation */
+/* ----------------OCCUPATION--------------- */
 .list-works {
   display: flex;
   padding-left: 0;
@@ -240,7 +244,7 @@ margin-right: 0;
   margin-left: 15px;
 } */
 
-/* team */
+/* ----------------TEAM--------------- */
 
 .team {
   background-color: #f5f4fa;
@@ -266,6 +270,7 @@ margin-right: 0;
   margin-left: 30px;
 }
 
+/* ----------------TEAM SPECIALITY--------------- */
 .section .member {
   color: var(--basic-color);
 
@@ -279,7 +284,7 @@ margin-right: 0;
   font-size: 16px;
   line-height: 1.19;
 }
-/* footer */
+/* ----------------FOOTER--------------- */
 .footer {
   background-color: var(--hero-bcg-color);
 }
@@ -334,9 +339,9 @@ margin-right: 0;
   color: var(--accent-color);
 }
 
-/* Portfolio */
+/* ----------------PORTFOLIO--------------- */
 
-/* button */
+/* ----------------FILTER LIST--------------- */
 .filter-list {
   display: flex;
   justify-content: center;
@@ -365,6 +370,8 @@ margin-right: 0;
   color: var(--hero-title-color);
   background-color: var(--button-bkg-color);
 }
+
+/* ----------------PROJECTS--------------- */
 .projects {
   padding: 0;
   display: flex;
@@ -375,9 +382,17 @@ margin-right: 0;
 }
 .projects .item {
   flex-basis: calc(100% / 3 - 32px);
+  max-width: 370px;
+  box-sizing: border-box;
+
   margin-right: 30px;
   margin-bottom: 30px;
-  /* border: 1px solid #eeeeee; */
+  border: 1px solid #eeeeee;
+}
+.projects .item .content {
+  box-sizing: border-box;
+  /* width: 370px; */
+  padding: 20px 24px;
 }
 
 .projects .title {
@@ -385,7 +400,6 @@ margin-right: 0;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
-
   letter-spacing: 0.06em;
 }
 
@@ -394,9 +408,7 @@ margin-right: 0;
   font-size: 16px;
   line-height: 1.88;
 }
-.projects .img {
-  margin-bottom: 20px;
-}
+
 .projects .title {
   margin-bottom: 4px;
 }
