@@ -44,11 +44,19 @@ header {
 .decoration {
   text-decoration: none;
 }
-
-.hidden-title {
-  display: none;
-  /* поміняти */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
+
 .section {
   padding: 94px 0;
 }
@@ -270,7 +278,7 @@ margin-right: 0;
   margin-left: 30px;
 }
 
-/* ----------------TEAM SPECIALITY--------------- */
+/* ----------------TEAM SPECIALTY--------------- */
 .section .member {
   color: var(--basic-color);
 
@@ -387,12 +395,12 @@ margin-right: 0;
 
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
 }
 .projects .item .content {
   box-sizing: border-box;
   /* width: 370px; */
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 
 .projects .title {
